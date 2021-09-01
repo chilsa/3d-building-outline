@@ -827,10 +827,7 @@ map.on('load', function () {
 	
 	map.addSource('3d-building-source', {
 		type: 'geojson',
-		data: {
-			'features': features,
-			'type': 'FeatureCollection'
-		}
+		data: 'https://chilsa.github.io/3d-building-outline/featuresOfKowloonEastGovernmentOffices.json'
 	});
 	
 	// 建筑物
