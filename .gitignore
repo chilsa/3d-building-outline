@@ -1,8 +1,5 @@
 node_modules
-src
-package.json
-package-lock.json
 npm-debug.log
 .idea
 .cache
-.babelrc
+dist
